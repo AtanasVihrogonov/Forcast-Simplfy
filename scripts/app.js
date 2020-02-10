@@ -7,7 +7,13 @@ const updateCity = async (city) => {
 
   const cityDets = await getCity(city);
   const wearher = await getWeather(cityDets.Key);
-}
+
+  return {
+    cityDets: cityDets,
+    wearher: wearher
+  };
+
+};
 
 cityForm.addEventListener('submit', e => {
   // prevent default action
@@ -18,6 +24,8 @@ cityForm.addEventListener('submit', e => {
   cityForm.reset();
 
   // update the UI with new city
-  updateCity(city);
+  updateCity(city)
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
 
 });
