@@ -3,7 +3,7 @@
 ## Screenshot
 ![fs](https://user-images.githubusercontent.com/45083295/79921410-0bd19980-842a-11ea-8c0a-321f5f697a1d.PNG)
 
-### Project - [Live Demo](https://atanasvihrogonov.github.io/Forcast-Simplfy/)         
+### Project - [Live Demo]()         
 
 ## Tehnologies
 
